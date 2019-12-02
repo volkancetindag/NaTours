@@ -1,0 +1,28 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  /*  16    10
+     100    x
+     ----------  */
+  /*
+   we want to set 1 rem equals to 10 px to set other property easily
+  */
+
+}
+body{
+  font-family: "Lato", sans-serif ;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3rem;
+  box-sizing: border-box;
+}
